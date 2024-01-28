@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = tt_um_histefan_top.v vga_sync.v synchronizer.v btn_debounce.v draw_border.v draw_apple.v draw_snake.v collision.v rgb_select.v snake_control.v random_position.v snake.v snake_update_trigger.v
 
 ifneq ($(GATES),yes)
 
